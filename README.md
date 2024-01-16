@@ -22,14 +22,14 @@ This project consists of several components, including a Geometry DLL, a CubeItC
 ### Point3D Class
 
 #### Methods
-- 'Point3D p1() const': Get the first point.
-- 'Point3D p2() const': Get the second point.
-- 'Point3D p3() const': Get the third point.
-- 'Point3D normal() const': Get the normal.
-- 'void setNormal(Point3D inNormal)': Set the normal.
-- 'bool containsPoint(const Point3D& point) const': Check if the given point is inside the triangle.
+- `Point3D p1() const`: Get the first point.
+- `Point3D p2() const`: Get the second point.
+- `Point3D p3() const`: Get the third point.
+- `Point3D normal() const`: Get the normal.
+- `void setNormal(Point3D inNormal)`: Set the normal.
+- `bool containsPoint(const Point3D& point) const`: Check if the given point is inside the triangle.
 - Friend Function :
-- 'std::ostream& operator<<(std::ostream& os, Triangle& tri)': Output stream operator to print the triangle.
+- `std::ostream& operator<<(std::ostream& os, Triangle& tri)`: Output stream operator to print the triangle.
 - 
 ### Triangle Class
 
@@ -97,7 +97,4 @@ The `CubeIt` class is responsible for voxelizing 3D models from STL files. It ta
 - `void addCubicalVetices(const Point3D& point1, const Point3D& point2, int voxelSize)`: Helper method to add vertices for cubical voxelization.
 - `void addCube(const Point3D& corner, int voxelSize)`: Helper method to add a cube to the voxelized representation.
 - `void addQuad(const Point3D& p1, const Point3D& p2, const Point3D& p3, const Point3D& p4)`: Helper method to add a quad to the voxelized representation.
-
-
-
 
