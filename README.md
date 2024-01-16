@@ -3,15 +3,15 @@
 This project provides a user-friendly interface for working with STL files, allowing users to open, render, and voxelize 3D models. The primary features include:
 
 ## Key Features
-Open STL File: Users can input STL files using the "Open STL" button, facilitating easy access to 3D models.
+__Open STL File__: Users can input STL files using the "Open STL" button, facilitating easy access to 3D models.
 
-Render STL: The "Render STL" button enables users to visualize the 3D model directly within the application, providing a convenient preview.
+__Render STL__: The "Render STL" button enables users to visualize the 3D model directly within the application, providing a convenient preview.
 
-Voxelize Model: The "Voxelize" button allows users to voxelize the loaded STL file, converting the 3D model into a grid of cubes.
+__Voxelize Model__: The "Voxelize" button allows users to voxelize the loaded STL file, converting the 3D model into a grid of cubes.
 
-Voxel Size Control: A spin box is provided to set the voxel size, giving users flexibility in defining the granularity of the voxelization process.
+__Voxel Size Control__: A spin box is provided to set the voxel size, giving users flexibility in defining the granularity of the voxelization process.
 
-Color Customization: Users can customize the rendering color of the 3D model using the "Color" button, enhancing the visualization experience.
+__Color Customization__: Users can customize the rendering color of the 3D model using the "Color" button, enhancing the visualization experience.
 
 ## Overview
 
